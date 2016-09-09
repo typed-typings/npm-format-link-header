@@ -2,8 +2,8 @@
 declare namespace formatLinkHeader {
   export interface Link {
     url: string;
-    rel: string;
-    [queryParam: string]: string;
+    rel?: string;
+    [attribute: string]: string;
   }
 
   export interface Links {
